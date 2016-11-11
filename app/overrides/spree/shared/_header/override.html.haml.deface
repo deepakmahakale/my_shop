@@ -1,0 +1,7 @@
+/
+  set_attributes '#logo'
+  attributes style: 'display:none', class: 'abc'
+.abc
+  .aaa{ style: 'min-height:10px;min-width:10px;background-color:red;' }
+-# %a{ href: '/' }
+  = image_tag 'logo/spree_50.png', alt: 'spree'

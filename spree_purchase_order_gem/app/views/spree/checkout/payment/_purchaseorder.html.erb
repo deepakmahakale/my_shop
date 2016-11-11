@@ -1,0 +1,8 @@
+<div class='well clearfix'>
+  <p class='field'>
+    <%= label_tag :po_number do %>
+      PO Number<abbr class='required' title='required'>*</abbr>
+    <% end %>
+    <%= text_field_tag 'order[payments_attributes][][po_number]', '', id: :po_number, class: 'form-control required', size: 10, maxlength: 10 %>
+  </p>
+</div>
